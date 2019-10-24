@@ -4,22 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+     <link rel="stylesheet" href="../css/stylecontact.css">
   </head>
   <body>
     <header>
         <h1>Our First Website</h1>
     </header>
-	  <div class="topnav">
-      <a href="../index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="table.html">Motivation</a>
-      <a tabindex="0" aria-current="page">Contact</a>
-    </div>
+	  <nav>
+           <ul>
+            	<li><a href= "../index.html" >Home</a></li>
+        		<li><a href="about.html">About</a></li>
+        		<li><a href="table.html">Motivation</a></li>
+       			<li><a tabindex="0" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
     <div class="container">
       <form>
           <h2>Got any tips for us?</h2>
           <section>
-              <legend>Write us a message!</legend>
+             <b><legend>Write us a message!</legend></b> 
               <p>
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -37,7 +40,7 @@
                 </select>
               </p>
               <p><label for="message">Your Message</label></p>
-              <textarea id="message" name="massage" cols="50" rows="10" placeholder="Questions, Feedback, Suggestions..." style="height:200px"></textarea>
+              <p><textarea id="message" name="massage" cols="50" rows="10" placeholder="Questions, Feedback, Suggestions..." style="height:200px"></textarea></p>
               <p><input type="submit" value="Send"></p>
           </section>
           <fieldset>
